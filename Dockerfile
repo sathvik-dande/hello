@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install Flask==2.0.3 Werkzeug==2.0.3
+RUN pip install -r requirements.txt
 
 EXPOSE 5000
 
